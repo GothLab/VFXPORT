@@ -1,0 +1,23 @@
+@font-face {
+	font-family: 'Brutal Type';
+	src: url(../../assets/fonts/BrutalType.woff2) format('woff2'),
+	url(../../assets/fonts/BrutalType.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Brutal Type';
+	src: url(../../assets/fonts/BrutalType-Medium.woff2) format('woff2'),
+	url(../../assets/fonts/BrutalType-Medium.woff) format('woff');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Brutal Type';
+	src: url(../../assets/fonts/BrutalType-Bold.woff2) format('woff2'),
+	url(../../assets/fonts/BrutalType-Bold.woff) format('woff');
+	font-weight: bold;
+	font-style: normal;
+}

@@ -1,25 +1,17 @@
 
 
-
-
-
-
-
-
-
-
-
 var path = localStorage.getItem("PATH");
-
 $('#input').attr('placeholder',path);
-
-
 $('#submiter').on('click',function(){
         
         path = $('#input').val();
         localStorage.setItem("PATH", path);
         $('#input').attr('placeholder',path);
 })
+
+
+
+////
 
 
 
