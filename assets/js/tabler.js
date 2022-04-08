@@ -45,7 +45,8 @@ for (i = 0; i < YY; i++) {
 }
 $('tbody').append( html.join('') );   
         
-        HOV();CLK();
+        HOV();
+        //CLK();
 
 //var ZZZ = YY - ZZ;
         
