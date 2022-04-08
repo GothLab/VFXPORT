@@ -25,11 +25,12 @@ function fire() {
 function initDownload() {
 $(".thumb").each().on("click", function () {
         var imagePath = $(this).css('background-image');
-        imagePath = imagePath.replace('url(', '').replace( ')', '').replace('_tn','');
+        imagePath = imagePath.replace('url(', '').replace( ')', '').replace('Thumbnails','Resource');
         
+        var cat = $(this).attr('cat');
+         var sub = $(this).attr('sub');
         
-        
-        var fileName = 
+        var fileName = cat + '_' + sub + '_' + index;
         saveAs(imagePath, fileName); // This is a function please download the file from the link
         //Download file from this link  
         // https://raw.githubusercontent.com/eligrey/FileSaver.js/master/dist/FileSaver.js

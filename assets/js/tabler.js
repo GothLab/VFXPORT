@@ -127,7 +127,8 @@ $('tbody').append( html.join('') );
 var XX = index + 1;
 $(this).css('background-image','url(' + pathz + XX + format + ')' );
 });
-        
+ 
+         initDownload(); 
 };
 
 
@@ -153,7 +154,7 @@ $('.thumb').on( "mouseover", function(){
 
 
 
-
+/*
 
 var DISCO = "E:/!MORFX/!Files/Abstract/Crystal/0.png";
 function CLK () {
@@ -174,4 +175,4 @@ $('.thumb').on('click',function(){
 };
 
 
-
+*/
