@@ -21,16 +21,20 @@ function fire() {
 
 
 
-
+var imagePath  = 'yo';
 function initDownload() {
-$(".thumb").each().on("click", function () {
-        var imagePath = $(this).css('background-image');
-        imagePath = imagePath.replace('url(', '').replace( ')', '').replace('Thumbnails','Resource');
         
-        var cat = $(this).attr('cat');
-         var sub = $(this).attr('sub');
+$(".thumb").on("click", function (el,index) {
         
-        var fileName = cat + '_' + sub + '_' + index;
+         imagePath = $(this).css('background-image');
+
+        imagePath = imagePath.replace('url(', '').replace( ')', '').replace('Thumbnails','Resource').replace('"','').replace('"','');
+        
+ var index = $(this).index();   
+        
+        
+        var fileName = cat + '_' + sub + '_' + index + '.png';
+       // var fileName = cat + '_' + sub + '_' + index + '.png';
         saveAs(imagePath, fileName); // This is a function please download the file from the link
         //Download file from this link  
         // https://raw.githubusercontent.com/eligrey/FileSaver.js/master/dist/FileSaver.js

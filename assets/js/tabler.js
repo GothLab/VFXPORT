@@ -1,6 +1,9 @@
+
+var cat = 0;
+var sub = 0;
 //PATH FOR ADD ON FOR LIBRARY
 
-var path = './Thumbnails/'  //localStorage.getItem("PATH");
+var path = 'https://gothlab.github.io/VFXPORT/Thumbnails/'  //localStorage.getItem("PATH");
 
 $('#input').attr('placeholder',path);
 $('#submiter').on('click',function(){
@@ -17,8 +20,8 @@ $('#submiter').on('click',function(){
 $('.trg').on('click',function(){
 
 $('tbody').empty();
-var cat = $(this).attr('cat');
-var sub = $(this).attr('sub');
+cat = $(this).attr('cat');
+sub = $(this).attr('sub');
 var count = $(this).attr('count');
 var vcount = $(this).attr('vcount');
 
@@ -130,7 +133,7 @@ var XX = index + 1;
 $(this).css('background-image','url(' + pathz + XX + format + ')' );
 });
  
-         initDownload(); 
+      initDownload() ;
 };
 
 
