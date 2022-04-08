@@ -120,7 +120,8 @@ for (i = 0; i < ZZ; i++) {
 }
 $('tbody').append( html.join('') );   
         
-        HOV();CLK();
+        HOV();
+//CLK();
         
        format = '.svg'
         
