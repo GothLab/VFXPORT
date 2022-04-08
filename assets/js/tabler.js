@@ -1,6 +1,7 @@
+//PATH FOR ADD ON FOR LIBRARY
 
+var path = './Thumbnails/'  //localStorage.getItem("PATH");
 
-var path = localStorage.getItem("PATH");
 $('#input').attr('placeholder',path);
 $('#submiter').on('click',function(){
         
@@ -11,9 +12,7 @@ $('#submiter').on('click',function(){
 
 
 
-////
-
-
+//// FUNCTION ON CLICK TO TRIGGER RENDER THUMBS FUNCTION
 
 $('.trg').on('click',function(){
 
@@ -48,10 +47,10 @@ $('tbody').append( html.join('') );
         
         HOV();CLK();
 
-var ZZZ = YY - ZZ;
+//var ZZZ = YY - ZZ;
         
 
-       
+   /*    
 /////count table rows        
 $('tbody').find('tr').each(function(index, el){
  $(this).find('.number').text(index+1);    
@@ -64,7 +63,8 @@ $('tbody').find('tr').each(function(index, el){
         
         
 })    
-
+*/
+        
 //////background image add and count/////////  
 $('tbody').find('.thumb').each(function(index, el){
 var XX = index + 1;
@@ -72,7 +72,7 @@ $(this).css('background-image','url(' + pathz + XX + format + ')' );
 });
 
 
-
+/*
 $('tbody').find('tr').each(function(index, el){   
                          
 var imgx = $(this).find('.bg').css('background-image');
@@ -95,16 +95,38 @@ $(this).find('.height').text(orgHeight);
                            
                            });
         
+        */
         
         
-        
-        $('tbody').find('.thumb').slice(ZZZ, YY).each(function(){  
+       /* $('tbody').find('.thumb').slice(ZZZ, YY).each(function(){  
 
    var url = $(this).css('background-image');
    var vurl = url.replace('png','svg');
    $(this).css('background-image',vurl);
 
-})
+})*/
+        
+         td2 = "<div class='thumb vector'></div>";
+        PATHX = td2; 
+//var td3 = '<td class="width" style="text-align: left;font-size: 8px;"><span class="height"></span><span class="height"></span><span class="format">PNG</span></td>';
+        
+    
+        
+        
+       var html = [];
+for (i = 0; i < ZZ; i++) {
+    html.push(PATHX);
+}
+$('tbody').append( html.join('') );   
+        
+        HOV();CLK();
+        
+       format = '.svg'
+        
+        $('tbody').find('.vector').each(function(index, el){
+var XX = index + 1;
+$(this).css('background-image','url(' + pathz + XX + format + ')' );
+});
         
 };
 
