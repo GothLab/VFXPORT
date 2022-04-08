@@ -143,10 +143,17 @@ function HOV () {
 
 $('.thumb').on( "mouseover", function(){  
         var iPath = $(this).css('background-image');
+        
+        iPath = iPath.replace('Thumbnails','Previews');
+        
         $('.vision').css('background-image',iPath);     
 });
 
 };
+
+
+
+
 
 var DISCO = "E:/!MORFX/!Files/Abstract/Crystal/0.png";
 function CLK () {
