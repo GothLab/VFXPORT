@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 23.0.6, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 181.1 45.4" style="enable-background:new 0 0 181.1 45.4;" xml:space="preserve">
+	 viewBox="0 0 243.7 103" style="enable-background:new 0 0 243.7 103;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#FFFFFF;}
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
 </style>
-<title>Asset 148</title>
+<title>Asset 151</title>
 <g>
 	<g id="_Layer_">
-		<polygon class="st0" points="55.3,36.1 90.8,0.6 181.1,0.6 181.1,0 45.4,0 0,45.4 10.2,45.4 19.5,36.1 		"/>
+		<polygon class="st0" points="46.2,42.6 89.2,44.8 91.8,42.3 45.8,40 45.3,40 44.9,40.3 39,45.7 38.6,46 38.6,46.6 38.2,54.7 
+			38.2,55.2 38.5,55.6 44,61.7 44.3,62 44.9,62.1 54.5,62.7 52,60 45.5,59.6 40.8,54.3 41.1,47.2 		"/>
+		<polygon class="st0" points="43,35.9 118.8,39.7 123.4,35.4 42.3,31.3 41.4,31.3 40.7,31.9 30.3,41.3 29.6,42 29.5,42.9 
+			28.8,57.2 28.8,58.2 29.4,58.9 39,69.5 39.7,70.2 40.6,70.3 57.6,71.3 53.2,66.6 41.8,65.8 33.4,56.5 34,44.1 		"/>
+		<polygon class="st0" points="36.7,11.9 231.7,21.7 237.7,16.2 243.7,10.6 34.9,0.1 32.5,0 30.7,1.6 3.9,25.8 2.1,27.4 2,29.9 
+			0.1,66.8 0,69.2 1.6,71 26.5,98.5 28,100.2 30.4,100.3 74.2,103 68.5,96.8 63,90.8 33.5,88.9 11.9,65 13.5,32.9 		"/>
+		<polygon class="st0" points="39.6,26.5 161.8,32.7 169.3,25.7 38.5,19.1 37,19.1 35.9,20.1 19.1,35.2 18,36.3 17.9,37.8 
+			16.7,60.9 16.6,62.4 17.7,63.5 33.2,80.8 34.2,81.8 35.7,81.9 63.1,83.6 56.1,76 37.7,74.8 24.1,59.8 25.1,39.6 		"/>
 	</g>
 </g>
 </svg>
