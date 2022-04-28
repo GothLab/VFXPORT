@@ -135,7 +135,7 @@ var XX = index;
 $(this).css('background-image','url(' + pathz + XX + format + ')' );
 });
  
-      initDownload() ;
+      initDownload() ;initDownloadV();
 };
 
 
@@ -153,6 +153,14 @@ $('.pic').on( "mouseover", function(){
         var iPath = $(this).css('background-image');
         
         iPath = iPath.replace('Thumbnails','Previews');
+        
+        $('.vision').css('background-image',iPath);     
+});
+        
+        $('.vector').on( "mouseover", function(){  
+        var iPath = $(this).css('background-image');
+        
+        iPath = iPath.replace('Thumbnails','Resource');
         
         $('.vision').css('background-image',iPath);     
 });
