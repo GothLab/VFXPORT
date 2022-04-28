@@ -129,6 +129,7 @@ $('tbody').append( html.join('') );
         
        format = '.svg'
         
+        pathz = pathz.replace('Thumbnails','Resource');
         $('tbody').find('.vector').each(function(index, el){
 var XX = index;
 $(this).css('background-image','url(' + pathz + XX + format + ')' );
