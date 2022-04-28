@@ -4,6 +4,7 @@
 	url(../../assets/fonts/BrutalType.woff) format('woff');
 	font-weight: normal;
 	font-style: normal;
+	font-display: auto;
 }
 
 @font-face {
@@ -12,6 +13,7 @@
 	url(../../assets/fonts/BrutalType-Medium.woff) format('woff');
 	font-weight: 500;
 	font-style: normal;
+	font-display: auto;
 }
 
 @font-face {
@@ -20,4 +22,5 @@
 	url(../../assets/fonts/BrutalType-Bold.woff) format('woff');
 	font-weight: bold;
 	font-style: normal;
+	font-display: auto;
 }

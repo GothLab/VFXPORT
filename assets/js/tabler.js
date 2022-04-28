@@ -38,7 +38,8 @@ var YY = y; //all
 pathz = x;
 var format = '.png'
 //var td1 = '<td><span class="number">№</span></td>';
-var td2 = "<div class='thumb'></div>";
+var td2 = "<div class='thumb pic'></div>";
+//var td3 = "<div class='thumb svg'></div>";
 //var td3 = '<td class="width" style="text-align: left;font-size: 8px;"><span class="height"></span><span class="height"></span><span class="format">PNG</span></td>';
         
 var PATHX = td2;       
@@ -71,7 +72,7 @@ $('tbody').find('tr').each(function(index, el){
         
 //////background image add and count/////////  
 $('tbody').find('.thumb').each(function(index, el){
-var XX = index + 1;
+var XX = index;
 $(this).css('background-image','url(' + pathz + XX + format + ')' );
 });
 
@@ -129,7 +130,7 @@ $('tbody').append( html.join('') );
        format = '.svg'
         
         $('tbody').find('.vector').each(function(index, el){
-var XX = index + 1;
+var XX = index;
 $(this).css('background-image','url(' + pathz + XX + format + ')' );
 });
  
@@ -147,7 +148,7 @@ $(this).css('background-image','url(' + pathz + XX + format + ')' );
 
 function HOV () {
 
-$('.thumb').on( "mouseover", function(){  
+$('.pic').on( "mouseover", function(){  
         var iPath = $(this).css('background-image');
         
         iPath = iPath.replace('Thumbnails','Previews');
