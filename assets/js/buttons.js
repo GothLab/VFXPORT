@@ -53,10 +53,11 @@ $(".pic").on("click", function (el,index) {
 function initDownloadV() {
         
 $(".vector").on("click", function (el,index) {
+       
         
-         imagePath = $(this).css('background-image');
+        imagePath = $(this).css('background-image');
 
-    
+     imagePath = imagePath.replace('url(', '').replace( ')', '').replace('"','').replace('"','');
         
  var index = $(this).index();   
         
