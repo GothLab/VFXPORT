@@ -13,7 +13,7 @@
 </head>
 
 <body style="background: transparent;/*width: 300px!important;*//*height: 300px!important;*/font-style: &quot;SF PRO TEXT&quot;!important;font-family: 'Brutal Type';">       <button pathx="z" id="btn_test" class="xxx topcoat-button--large hostFontSize">sadsadsad</button>  
-    <div style="width: 350px;">
+    <div style="/*width: 350px;*/">
         <ul class="nav nav-pills" role="tablist" style="font-size: 12px;display: none;">
             <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="pill" href="#tab-1" style="font-family: 'Brutal Type';width: 120.2031px;text-align: center;"><i class="fa fa-desktop" style="font-size: 14px;width: 15px;margin-right: 8px;"></i>&nbsp;Local</a></li>
             <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="pill" href="#tab-2" style="text-align: center;width: 140px;border-width: 0px;border-color: rgb(200,200,200);border-right-width: 1px;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-globe2" style="font-size: 14px;width: 15px;margin-right: 8px;">
@@ -22,10 +22,10 @@
         </ul>
         <div class="tab-content">
             <div class="tab-pane active" role="tabpanel" id="tab-1">
-                <div class="container" style="padding: 0;">
+                <div class="container" style="padding: 0;margin-right: 0px;margin-left: 0px;">
                     <div class="row">
                         <div class="col-4 col-sm-3 col-md-6" id="lefter">
-                            <div id="parent" style="/*width: 120px!important;*/height: 100%;background: #323232;">
+                            <div id="parent" style="/*width: 120px!important;*/height: 100vh;background: #323232;">
                                 <div><a class="btn btn-dark" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapse-2" href="#collapse-2" role="button" style="width: 100%;text-align: left;text-shadow: 0px 2px rgb(40,40,40);">Light</a>
                                     <div class="collapse" id="collapse-2" style="text-align: left;" data-bs-parent="#parent"><button class="btn btn-dark trg" type="button" style="width: 100%;text-align: left;background: #282828;" cat="Light" sub="Rays" count="51" vcount="">Rays</button><button class="btn btn-dark trg" type="button" style="width: 100%;text-align: left;background: #282828;" cat="Light" sub="Bokeh" count="11" vcount="">Bokeh</button><button class="btn btn-dark trg" type="button" style="width: 100%;text-align: left;background: #282828;" cat="Light" sub="Motion" count="12" vcount="">Motion</button><button class="btn btn-dark trg" type="button" style="width: 100%;text-align: left;background: #282828;" cat="Light" sub="Leaks" count="19" vcount="">Leaks</button><button class="btn btn-dark trg" type="button" style="width: 100%;text-align: left;background: #282828;" cat="Light" sub="Particles" count="41" vcount="">Particles</button><button class="btn btn-dark trg" type="button" style="width: 100%;text-align: left;background: #282828;" cat="Light" sub="Nebula" count="16" vcount="">Nebula</button><button class="btn btn-dark trg" type="button" style="width: 100%;text-align: left;background: #282828;" cat="Light" sub="Gradients" count="30" vcount="">Gradients</button><button class="btn btn-dark trg" type="button" style="width: 100%;text-align: left;background: #282828;" cat="Light" sub="Lens" count="49" vcount="">Lens flares</button></div>
                                 </div>
@@ -49,11 +49,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-8 col-sm-8 col-md-6 offset-sm-1" style="height: 500px;margin-left: 0;background-size: 10%!important;width: 230px;/*background: url(&quot;assets/img/39.svg&quot;) left / auto repeat;*/">
-                            <div style="width: 230px;/*left: 130px!important;*//*position: absolute;*/top: 34px;right: 0;opacity: 20%;background: url(&quot;assets/img/39.svg&quot;), transparent;/*opacity: 20%;*/height: 230px;background-size: 5%, auto;"></div>
+                        <div class="col-8 col-sm-8 col-md-6 offset-sm-1" style="height: 500px;margin-left: 0;background-size: 10%!important;/*width: 230px;*//*background: url(&quot;assets/img/39.svg&quot;) left / auto repeat;*/">
+                            <div style="width: 230px;/*left: 130px!important;*//*position: absolute;*/top: 34px;right: 0;opacity: 20%;background: url(&quot;assets/img/39.svg&quot;), grey;/*opacity: 20%;*/height: 230px;background-size: 5%, auto;"></div>
                             <div class="vision" style="width: 230px;/*left: 130px!important;*//*position: absolute;*/position: absolute;/*opacity: 30;*/top: 0px;/*right: 0;*/background: transparent;height: 230px;background-size: 9%;"></div>
                             <div class="CONTENT"></div>
-                            <div class="table-responsive">
+                            <div class="table-responsive" id="table">
                                 <table class="table table-dark table-bordered">
                                     <tbody></tbody>
                                 </table>
@@ -62,23 +62,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-4 d-grid float-start" style="/*width: 120px;*/"><a class="btn btn-dark d-inline-block" role="button" style="width: 120px;text-align: left;/*position: absolute;*//*bottom: 0;*/" data-bs-target="#offcanvas-1" data-bs-toggle="offcanvas"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" style="font-size: 18px;">
-                                <path d="M10.3246 4.31731C10.751 2.5609 13.249 2.5609 13.6754 4.31731C13.9508 5.45193 15.2507 5.99038 16.2478 5.38285C17.7913 4.44239 19.5576 6.2087 18.6172 7.75218C18.0096 8.74925 18.5481 10.0492 19.6827 10.3246C21.4391 10.751 21.4391 13.249 19.6827 13.6754C18.5481 13.9508 18.0096 15.2507 18.6172 16.2478C19.5576 17.7913 17.7913 19.5576 16.2478 18.6172C15.2507 18.0096 13.9508 18.5481 13.6754 19.6827C13.249 21.4391 10.751 21.4391 10.3246 19.6827C10.0492 18.5481 8.74926 18.0096 7.75219 18.6172C6.2087 19.5576 4.44239 17.7913 5.38285 16.2478C5.99038 15.2507 5.45193 13.9508 4.31731 13.6754C2.5609 13.249 2.5609 10.751 4.31731 10.3246C5.45193 10.0492 5.99037 8.74926 5.38285 7.75218C4.44239 6.2087 6.2087 4.44239 7.75219 5.38285C8.74926 5.99037 10.0492 5.45193 10.3246 4.31731Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M15 12C15 13.6569 13.6569 15 12 15C10.3431 15 9 13.6569 9 12C9 10.3431 10.3431 9 12 9C13.6569 9 15 10.3431 15 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                            </svg>&nbsp;Settings</a><button class="btn btn-dark d-inline-block" type="button" style="/*position: absolute;*/font-size: 7px;user-select: none;/*bottom: 0;*/width: 120px;text-align: left;"><strong>VFX PORT</strong> v.1.0</button></div>
-                    <div class="col d-flex justify-content-end align-items-end align-content-end"></div>
-                </div>
-                <div class="container" style="padding: 0;background: grey;text-align: center;padding-top: 15px;">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <p>advertisment</p>
-                        </div>
-                    </div>
-                </div>
                 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas-1" style="width: 280px;">
                     <div class="offcanvas-header" style="background: #1c1f23;">
-                        <h5 class="offcanvas-title" style="color: rgb(61,64,67);">Settings</h5><button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        <h5 class="offcanvas-title" style="color: rgb(61,64,67);">Settings</h5><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="offcanvas"></button>
                     </div>
                     <div class="offcanvas-body" style="background: #1c1f23;">
                         <p>Contribute graphics:<br><a href="https://forms.gle/fg7qufFCpfAJb2Ud8">Google</a></p>

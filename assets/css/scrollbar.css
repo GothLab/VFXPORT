@@ -123,7 +123,7 @@ table {
 }
 
 #lefter {
-  width: 120px!Important;
+  width: 180px!Important;
 }
 
 #filter {
@@ -218,11 +218,12 @@ li {
 }
 
 .CONTENT {
-  max-height: 500px;
+  /*max-height: 500px;*/
 }
 
 .table-responsive {
-  max-height: 324px;
+  /*max-height: 324px;*/
+  width: calc(100vw - 180px);
 }
 
 .vision {
@@ -260,5 +261,18 @@ button {
 
 .xxx {
   display: none;
+}
+
+#tab-1 {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+}
+
+#table {
+  width: calc(100vw - 180px);
+  height: calc(100vh - 230px);
 }
 
